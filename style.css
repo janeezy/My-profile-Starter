@@ -6,8 +6,8 @@
 	--normal-font: 400;
 	--bold-font: 700;
 	--bolder-font: 900;
-	--bg-color: #37362f#fcfcfc;
-	--primary-color: #575616;
+	--bg-color: #26a993#fcfcfc;
+	--primary-color: #191918;
 	--secondary-color: #ff7235;
 	--primary-shadow: #8b8eaf;
 	--secondary-shadow: #a17a69;
@@ -19,6 +19,10 @@
 /* Variables end */
 
 /* logo styling */
+.logo1 {
+	cursor: pointer;
+	@import url(https://www.linkedin.com/in/janeezy/);
+}
 
 .container {
 	align-items: flex-end;
@@ -28,7 +32,7 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: antiquewhite;
+	background-color: rgb(198, 192, 183);
 }
 
 /* CSS Resets */
@@ -113,8 +117,9 @@ img {
 }
 
 .bio-title {
-	margin: 10px;
-	padding: 4px;
+	padding: 7px;
+	margin-top: 4px;
+	justify-self: center;
 }
 
 /* about me styling  */
@@ -156,3 +161,42 @@ img {
 	padding: 1px;
 	margin-top: 0;
 }
+
+/* styling section */
+.more-about {
+	background-color: var(--bg-color);
+	padding: 1rem 6rem;
+}
+
+.more-about h2 {
+	margin-bottom: var(--bottom-margin);
+	text-align: center;
+}
+
+.more-about p {
+	line-height: var(--line-height);
+	padding: 0.4rem;
+}
+
+/* skilss styling */
+.skills {
+	max-width: 68.75rem;
+	margin: auto;
+	text-align: center;
+	margin-top: 2.5rem;
+}
+
+.skill-header {
+	margin-bottom: 1rem;
+}
+
+.skills-wrapper img {
+	padding: 1.25rem;
+}
+
+.icon {
+	width: 11.875rem;
+	height: 11.25rem;
+}
+
+/* project */
