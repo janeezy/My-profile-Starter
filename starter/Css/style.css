@@ -105,7 +105,7 @@ nav ul li {
 	display: none;
 }
 /* image styling */
-img {
+#imgstyle {
 	border-radius: 50%;
 	padding: 3%;
 	width: 300px;
@@ -199,4 +199,32 @@ img {
 	height: 11.25rem;
 }
 
-/* project */
+/* project  styling*/
+.projects {
+	background-color: var(--bg-color);
+	padding: 32px 0;
+	margin-top: 2rem;
+}
+
+.project-pic {
+	width: 65%;
+	height: 60%;
+}
+
+.projects-container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+/* project title */
+.projects-title {
+	text-align: center;
+	margin-bottom: 2rem;
+}
+
+.project-container {
+	text-align: center;
+	width: 21.875rem;
+	padding: 1rem;
+}
