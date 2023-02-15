@@ -92,7 +92,6 @@
 				class="hero"
 				id="about">
 				<img
-					id="imgstyle"
 					src="images/jane 6.png"
 					alt="jane-duru"
 					loading="lazy"
@@ -220,6 +219,7 @@
 
 					<!-- project uhost -->
 					<img
+						class="styling-image"
 						src="images/uhost.png"
 						alt="uhost"
 						loading="lazy"
@@ -239,14 +239,17 @@
 					</p>
 
 					<!-- project  dietnutri-->
-					<h3 class="project-title">dietnutri</h3>
 
 					<div class="project-container project-card">
 						<img
+							class="styling-image"
 							src="images/dietnutri.png"
 							alt="dietnutri"
 							loading="lazy"
 							class="project-pic" />
+
+						<h3 class="project-title">dietnutri</h3>
+
 						<p class="project-details">
 							Dietnurti is about how to track your dietary, I built this site is
 							still on demo, but yes you can have list of dietary options if
@@ -261,11 +264,13 @@
 					</div>
 					<div class="project-container project-card">
 						<img
+							class="styling-image"
 							src="images/Bankist.png"
 							alt="Bankist"
 							loading="lazy"
 							class="project-pic" />
 						<h3 class="project-title">Bankist</h3>
+
 						<p class="project-details">
 							Bankist is a minimalist app I developed to keep track of your
 							financial spending!
@@ -279,6 +284,7 @@
 					</div>
 					<div class="project-container project-card">
 						<img
+							class="styling-image"
 							src="images/PigGame.png"
 							alt="PigGame"
 							loading="lazy"
@@ -298,6 +304,7 @@
 					</div>
 					<div class="project-container project-card">
 						<img
+							class="styling-image"
 							src="images/janeezybeats.png"
 							alt="janeezybeats"
 							loading="lazy"
@@ -316,6 +323,56 @@
 							>Check it Out</a
 						>
 					</div>
+				</div>
+			</div>
+		</section>
+		<!-- contact me section  -->
+		<section
+			class="contact"
+			id="contact">
+			<h2>Get In Touch With Me</h2>
+			<div class="contact-form-container">
+				<div class="contact-form">
+					<form
+						action="https://formspree.io/f/xrgvpwbw"
+						method="POST">
+						<div class="form-control">
+							<label for="name">Name</label>
+							<input
+								type="text"
+								id="name"
+								name="sender-name"
+								placeholder="Enter Your Name"
+								class="input-field"
+								required />
+						</div>
+						<div class="form-control">
+							<label for="email">Email</label>
+							<input
+								type="email"
+								id="email"
+								name="sender-email"
+								placeholder="Enter Your Email"
+								class="input-field"
+								required />
+						</div>
+						<div class="form-control">
+							<label for="message">Message</label>
+							<textarea
+								id="message"
+								cols="60"
+								rows="10"
+								placeholder="Enter Your Message"
+								name="message"
+								class="input-field"
+								required></textarea>
+						</div>
+						<input
+							type="submit"
+							value="Submit"
+							id="submit-btn"
+							class="submit-btn" />
+					</form>
 				</div>
 			</div>
 		</section>

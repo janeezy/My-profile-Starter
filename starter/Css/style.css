@@ -105,7 +105,11 @@ nav ul li {
 	display: none;
 }
 /* image styling */
-#imgstyle {
+.styling-image {
+	border-radius: 0%;
+}
+
+img {
 	border-radius: 50%;
 	padding: 3%;
 	width: 300px;
@@ -225,6 +229,49 @@ nav ul li {
 
 .project-container {
 	text-align: center;
-	width: 21.875rem;
+	width: 28.875rem;
 	padding: 1rem;
+}
+div.project-container .project-card {
+	box-sizing: border-box;
+	width: fit-content;
+}
+
+/* adding box shadow to projects  */
+.project-container p {
+	padding: 0.2rem;
+}
+
+.project-title {
+	margin-bottom: var(--bottom-margin);
+}
+
+.project-details {
+	margin-bottom: var(--bottom-margin);
+}
+
+.project-card {
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 3px 10px var(--primary-shadow);
+	padding: 20px;
+	margin: 10px;
+}
+
+/* styling contact  */
+.contact {
+	margin-top: 2rem;
+}
+
+.contact h2 {
+	text-align: center;
+	margin-bottom: var(--bottom-margin-2);
+}
+
+.contact-form-container {
+	max-width: 40.75rem;
+	margin: 0 auto;
+	padding: 0.938rem;
+	border-radius: 5px;
+	box-shadow: 0 3px 10px var(--secondary-shadow);
 }
