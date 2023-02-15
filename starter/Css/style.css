@@ -32,7 +32,7 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: rgb(198, 192, 183);
+	background-color: rgba(217, 140, 32, 0.13);
 	cursor: pointer;
 }
 
@@ -232,6 +232,7 @@ img {
 	text-align: center;
 	width: 28.875rem;
 	padding: 1rem;
+	background-color: #cbd3d1;
 }
 div.project-container .project-card {
 	box-sizing: border-box;
@@ -297,4 +298,10 @@ div.project-container .project-card {
 	border: 2px outset var(--primary-color);
 	font-size: 0.875rem;
 	outline: none;
+}
+
+/* placeholder styling */
+.input-field::placeholder {
+	padding: 0.5rem;
+	color: var(--primary-color);
 }
