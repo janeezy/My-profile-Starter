@@ -6,11 +6,11 @@
 	--normal-font: 400;
 	--bold-font: 700;
 	--bolder-font: 900;
-	--bg-color: #26a993#fcfcfc;
-	--primary-color: #191918;
-	--secondary-color: #ff7235;
-	--primary-shadow: #8b8eaf;
-	--secondary-shadow: #a17a69;
+	--bg-color: hwb(0 100% 0% / 0.526);
+	--primary-color: hwb(180 9% 90%);
+	--secondary-color: rgb(190, 53, 53);
+	--primary-shadow: #7e7866;
+	--secondary-shadow: #140f05;
 	--bottom-margin: 0.5rem;
 	--bottom-margin-2: 1rem;
 	--line-height: 1.7rem;
@@ -39,7 +39,7 @@
 
 html {
 	scroll-behavior: smooth;
-	background-color: rgba(217, 140, 32, 0.13) 38, 100, 50;
+	background-image: url('../images/background-2.jpg');
 	cursor: pointer;
 }
 
