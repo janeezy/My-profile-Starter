@@ -407,7 +407,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		right: 3%;
+		right: 9%;
 		bottom: 20%;
 	}
 
@@ -441,5 +441,20 @@ footer {
 
 	.more-about p {
 		text-align: justify;
+	}
+
+	.icon {
+		width: 5.875rem;
+		height: 5.25rem;
+	}
+	.projects-container {
+		flex-direction: column;
+	}
+
+	.project-container {
+		width: 25.875rem;
+	}
+	.contact-form-container {
+		max-width: 23.75rem;
 	}
 }
