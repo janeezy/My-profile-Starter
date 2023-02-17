@@ -24,6 +24,13 @@
 	@import url(https://www.linkedin.com/in/janeezy/);
 }
 
+/* logoicon for jd */
+#logo-icon {
+	position: fixed;
+	left: 3%;
+	bottom: -10%;
+	display: block;
+}
 .container {
 	align-items: flex-end;
 	border-radius: 20px;
@@ -361,33 +368,35 @@ footer {
 }
 /* creating responsesiveness */
 @media screen and (max-width: 720px) {
+	html {
+		cursor: pointer;
+	}
 	/*changes reflects on screen with a
 		width of 720px and below*/
-}
+	nav {
+		padding: 1.5rem 1rem;
+	}
 
-nav {
-	padding: 1.5rem 1rem;
-}
+	nav ul {
+		position: fixed;
+		background-color: var(--bg-color);
+		flex-direction: column;
+		top: 86px;
+		left: 10%;
+		width: 80%;
+		text-align: center;
+		transform: translateX(90%);
+		transition: transform 0.5s ease-in;
+	}
 
-nav ul {
-	position: fixed;
-	background-color: var(--bg-color);
-	flex-direction: column;
-	top: 86px;
-	left: 10%;
-	width: 80%;
-	text-align: center;
-	transform: translateX(120%);
-	transition: transform 0.5s ease-in;
-}
+	nav ul li {
+		margin: 8px;
+	}
+	.burger-menu {
+		display: block;
+	}
 
-nav ul li {
-	margin: 8px;
-}
-.burger-menu {
-	display: block;
-}
-
-nav ul.show {
-	transform: translateX(0);
+	nav ul.show {
+		transform: translateX(0);
+	}
 }
