@@ -32,3 +32,5 @@ navLink.forEach((link) =>
 		ul.classList.remove('show');
 	})
 );
+// document.querySelector('body').window;
+// alert('welcome to my page!');
