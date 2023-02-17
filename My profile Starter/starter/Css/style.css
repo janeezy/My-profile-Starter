@@ -9,8 +9,8 @@
 	--bg-color: hwb(0 100% 0% / 0.526);
 	--primary-color: hwb(180 9% 90%);
 	--secondary-color: rgb(190, 53, 53);
-	--primary-shadow: #7e7866;
-	--secondary-shadow: #140f05;
+	--primary-shadow: #937006;
+	--secondary-shadow: #0d0d0d;
 	--bottom-margin: 0.5rem;
 	--bottom-margin-2: 1rem;
 	--line-height: 1.7rem;
@@ -407,7 +407,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		right: 3%;
+		right: 9%;
 		bottom: 20%;
 	}
 
@@ -441,5 +441,20 @@ footer {
 
 	.more-about p {
 		text-align: justify;
+	}
+
+	.icon {
+		width: 5.875rem;
+		height: 5.25rem;
+	}
+	.projects-container {
+		flex-direction: column;
+	}
+
+	.project-container {
+		width: 25.875rem;
+	}
+	.contact-form-container {
+		max-width: 23.75rem;
 	}
 }
