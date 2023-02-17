@@ -389,17 +389,57 @@ footer {
 		width: 80%;
 		text-align: center;
 		transform: translateX(90%);
-		transition: transform 0.5s ease-in;
+		transition: transform 0.1s ease-in;
+	}
+
+	ul.navigation {
+		display: contents;
 	}
 
 	nav ul li {
 		margin: 8px;
 	}
 	.burger-menu {
-		display: block;
+		display: show;
+	}
+
+	.socials {
+		display: flex;
+		flex-direction: column;
+		position: fixed;
+		right: 3%;
+		bottom: 20%;
 	}
 
 	nav ul.show {
 		transform: translateX(0);
+	}
+
+	.hero {
+		margin-top: -4rem;
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.hero img {
+		height: 37.5rem;
+		width: 30rem;
+	}
+
+	.bio {
+		margin-top: -7rem;
+		width: 20.5rem;
+	}
+	.more-about {
+		margin-top: 2rem;
+		padding: 1rem 3.5rem;
+	}
+
+	.more-about h2 {
+		text-align: center;
+	}
+
+	.more-about p {
+		text-align: justify;
 	}
 }
