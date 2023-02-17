@@ -176,6 +176,9 @@ img {
 
 /* styling section */
 .more-about {
+	text-align: start;
+	text-shadow: hsla(45, 24%, 45%, 0.837);
+	font-size: medium;
 	background-color: var(--bg-color);
 	padding: 1rem 6rem;
 }
@@ -367,7 +370,7 @@ footer {
 	height: 3rem;
 }
 /* creating responsesiveness */
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 620px) {
 	html {
 		cursor: pointer;
 	}
