@@ -6,11 +6,11 @@
 	--normal-font: 400;
 	--bold-font: 700;
 	--bolder-font: 900;
-	--bg-color: hwb(48 94% 4% / 0.11);
-	--primary-color: hwb(180 23% 74%);
-	--secondary-color: rgb(192, 111, 31);
-	--primary-shadow: #08090977;
-	--secondary-shadow: #090909;
+	--bg-color: hwb(39 85% 8%);
+	--primary-color: hwb(60 5% 94%);
+	--secondary-color: rgb(187, 53, 53);
+	--primary-shadow: #a39c9ceb;
+	--secondary-shadow: #871e1e;
 	--bottom-margin: 0.5rem;
 	--bottom-margin-2: 1rem;
 	--line-height: 1.7rem;
@@ -21,13 +21,13 @@
 /* logo styling */
 .logo1 :hover {
 	cursor: pointer;
-	color: #d79210c3;
+	color: #e39607;
 }
 
 /* logo styling */
 
 #h1-tag::first-letter {
-	color: rgb(110, 86, 25);
+	color: rgb(216, 157, 9);
 }
 
 #h1-tag ::shadow {
@@ -49,7 +49,7 @@
 
 html {
 	scroll-behavior: smooth;
-	/* background-image: url('../images/background-2.jpg'); */
+	background-image: url('../images/background-2.jpg');
 	cursor: pointer;
 	background-size: cover;
 	position: absolute;
