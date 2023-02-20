@@ -1,16 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap');
 
 /* Variables */
+/* Variables */
 :root {
 	--font-family: 'Roboto', sans-serf;
 	--normal-font: 400;
 	--bold-font: 700;
 	--bolder-font: 900;
-	--bg-color: hwb(0 100% 0% / 0.526);
-	--primary-color: hwb(180 9% 90%);
-	--secondary-color: rgb(190, 53, 53);
-	--primary-shadow: #937006;
-	--secondary-shadow: #0d0d0d;
+	--bg-color: #fcfcfc;
+	--primary-color: #2b2b2d;
+	--secondary-color: #ff7235;
+	--primary-shadow: #8b8eaf;
+	--secondary-shadow: #a17a69;
 	--bottom-margin: 0.5rem;
 	--bottom-margin-2: 1rem;
 	--line-height: 1.7rem;
@@ -19,9 +20,19 @@
 /* Variables end */
 
 /* logo styling */
-.logo1 {
+.logo1 :hover {
 	cursor: pointer;
-	@import url(https://www.linkedin.com/in/janeezy/);
+	color: #e39607;
+}
+
+/* logo styling */
+
+#h1-tag::first-letter {
+	color: rgb(237, 172, 9);
+}
+
+#h1-tag ::shadow {
+	color: bisque;
 }
 
 /* logoicon for jd */
@@ -39,10 +50,13 @@
 
 html {
 	scroll-behavior: smooth;
-	background-image: url('../images/background-2.jpg');
+	/* background-image: url('../images/background-2.jpg'); */
 	cursor: pointer;
+	background-size: cover;
+	position: absolute;
 }
 
+/* CSS Resets */
 /* CSS Resets */
 * {
 	margin: 0;
@@ -125,10 +139,10 @@ img {
 	justify-self: unset;
 	height: 300px;
 	box-sizing: border-box;
-	box-shadow: inset rgb(184, 181, 178);
+	box-shadow: inset rgb(237, 230, 223);
 }
 
-.bio-title {
+.bio-title :hover {
 	padding: 7px;
 	margin-top: 4px;
 	justify-self: center;
@@ -144,7 +158,6 @@ img {
 	max-width: 68.75rem;
 	margin: auto;
 }
-
 .hero img {
 	height: 37.5rem;
 	width: 37.5rem;
@@ -168,6 +181,7 @@ img {
 
 .logo2 {
 	width: 100%;
+	position: static;
 	border-radius: 0%;
 	box-sizing: border-box;
 	padding: 1px;
@@ -176,9 +190,6 @@ img {
 
 /* styling section */
 .more-about {
-	text-align: start;
-	text-shadow: hsla(45, 24%, 45%, 0.837);
-	font-size: medium;
 	background-color: var(--bg-color);
 	padding: 1rem 6rem;
 }
@@ -213,8 +224,16 @@ img {
 	width: 11.875rem;
 	height: 11.25rem;
 }
+.icon-card {
+	background-color: #fff;
+	border-radius: 11px;
+	box-shadow: 0 3px 10px var(--secondary-shadow);
+	padding: 20px;
+	margin: 10px;
+}
 
 /* project  styling*/
+
 .projects {
 	background-color: var(--bg-color);
 	padding: 32px 0;
@@ -228,22 +247,25 @@ img {
 
 .projects-container {
 	display: flex;
+	flex-direction: column;
+	margin: auto;
 	align-items: center;
 	justify-content: center;
+	width: 30.875rem;
+	text-align: center;
+	padding: 1rem;
 }
 
 /* project title */
-.projects-title {
-	text-align: center;
-	margin-bottom: 2rem;
+.project-link {
+	color: #a17a69;
 }
 
-.project-container {
+.projects-title {
 	text-align: center;
-	width: 28.875rem;
-	padding: 1rem;
-	background-color: #cbd3d1;
+	margin-bottom: 1rem;
 }
+
 div.project-container .project-card {
 	box-sizing: border-box;
 	width: fit-content;
@@ -251,7 +273,7 @@ div.project-container .project-card {
 
 /* adding box shadow to projects  */
 .project-container p {
-	padding: 0.2rem;
+	padding: 0.4rem;
 }
 
 .project-title {
@@ -340,13 +362,14 @@ div.project-container .project-card {
 	display: flex;
 	flex-direction: column;
 	position: fixed;
-	right: 3%;
-	bottom: 30%;
+	right: 2%;
+	bottom: 20%;
 }
 
 .socicon {
-	width: 4rem;
-	height: 4rem;
+	width: 2rem;
+	height: 2rem;
+	position: sticky;
 }
 /* footer styling */
 footer {
@@ -407,7 +430,7 @@ footer {
 		display: flex;
 		flex-direction: column;
 		position: fixed;
-		right: 9%;
+		right: 6%;
 		bottom: 20%;
 	}
 
